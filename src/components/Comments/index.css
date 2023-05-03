@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background-color: white;
+}
+.input-image-container {
+  display: flex;
+  border-bottom: 1px solid #94a3b8;
+  padding-bottom: 20px;
+  align-items: flex-end;
+}
+.test {
+  width: 750px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.comments-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.image {
+  margin-left: 150px;
+  width: 300px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+}
+.name-input {
+  height: 30px;
+  width: 300px;
+  border: 1px solid #64748b;
+  border-radius: 7px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 20px;
+}
+.textarea-input-el {
+  outline: none;
+  border: 1px solid #64748b;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.submit-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #0284c7;
+  outline: none;
+}
+.count {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 2px;
+  border-top-left-radius: 6px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.comments-count {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.comments-container {
+  text-align: left;
+  list-style-type: none;
+}
